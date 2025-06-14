@@ -58,3 +58,29 @@
     color: white;
     width:600px;
 }
+
+footer {
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .fnav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer img {
+    width: 200px;
+    height: auto;
+}
+
+.footer a {
+    color: white;
+}
