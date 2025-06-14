@@ -4,3 +4,32 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.header img {
+    width: 200px;
+    height: auto;
+}
+
+.header .nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.header a {
+    color: black;g
+}
